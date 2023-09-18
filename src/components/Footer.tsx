@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className=" min-h-[88px] bg-[#252F3D] flex flex-wrap lg:justify-between justify-center text-white text-[11px] lg:text-[12px] lg:leading-3 px-[6%]">
-      <p className=" w-full lg:w-[40%] flex items-center text-[11px] lg:text-[16px] ">
+      <p className=" w-full lg:w-[40%] flex items-center text-[11px] lg:text-[16px] justify-center lg:justify-start ">
         Copyright (c) 2023 | Clarifionsupport@clarifion.com
       </p>
       <p className=" flex items-center">
