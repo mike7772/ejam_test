@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "EODB Evaluators",
+      "script": "npm",
+      "args": "run build:start"
+    }
+  ]
+}

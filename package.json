@@ -1,0 +1,66 @@
+{
+  "name": "eodb_evaluator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/html-pdf": "^3.0.0",
+    "@types/jest": "^27.5.2",
+    "@types/js-cookie": "^3.0.3",
+    "@types/jspdf": "^2.0.0",
+    "@types/node": "^16.18.39",
+    "@types/react": "^18.2.16",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-gauge-chart": "^0.4.0",
+    "antd": "^5.7.3",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.4.0",
+    "clsx": "^2.0.0",
+    "html-react-parser": "^4.2.0",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.1",
+    "iconsax-react": "^0.0.8",
+    "jspdf": "^2.5.1",
+    "moment": "^2.29.4",
+    "node-html-parser": "^6.1.5",
+    "pdfjs-dist": "^3.9.179",
+    "postcss": "^8.4.27",
+    "pspdfkit": "^2023.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-gauge-chart": "^0.4.1",
+    "react-pdf": "^7.3.3",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "sass": "^1.64.2",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "build:start": "serve -s build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

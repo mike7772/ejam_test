@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Plus Jakarta";
+  src: url("../fonts/plusjakartasans-variablefont_wght-webfont.woff2")
+      format("woff2"),
+    url("../fonts/plusjakartasans-variablefont_wght-webfont.woff")
+      format("woff");
+  /* Add more src declarations for different font formats if needed */
+  /* Specify the path to your font files */
+}

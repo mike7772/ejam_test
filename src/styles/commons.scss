@@ -1,0 +1,56 @@
+@mixin bottom_shadow {
+  box-shadow: 0 1px 1px 0.3px rgba(0, 0, 0, 0.1);
+}
+
+@mixin box_shadow_1 {
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.08);
+}
+
+@mixin box_shadow_2 {
+  box-shadow: 0 7px 15px 2px rgba(0, 0, 0, 0.08);
+}
+
+@mixin box_shadow_3 {
+  box-shadow: 0 10px 20px 3px rgba(0, 0, 0, 0.08);
+}
+
+
+@mixin background_color_1 {
+  background-color: #f1f1f1;
+}
+
+@mixin flexed($direction : (row row-reverse column  column-reverse)) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+
+@mixin centered_cols {
+  @include flexed(column);
+  align-items: center;
+}
+
+@mixin centered_rows {
+  @include flexed(row);
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin padded_page() {
+  padding-top: calc(var(--header-height) + 18px);
+}
+
+
+@mixin debug_bounds {
+  border: 1px dashed magenta;
+}
+
+
+$blue: #0050b3;
+$green: #73D13D;
+$background: #f2f4f7;
+$light_blue: #1890FF;
+$red: #FF4D4F;
+$orange: #F5B543;
+$light_yellow: #F5B613;
+$blue_btn:#3A5095;
